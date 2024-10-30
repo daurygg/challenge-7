@@ -26,7 +26,7 @@ main {
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(2,1fr); 
-    margin: 5rem auto;
+    margin: 10rem auto;
     height: 100%;
     gap: 25px;   
     max-width: var(--desktop-view-size); 
@@ -70,7 +70,7 @@ h2 {
     flex-direction: column;    
 }
 
-.card1-name-img-text h5 {    
+.card1-name-img-text h1 {    
     font-size: var(--paragraph-font-size);
     font-family: var(--font-family);
     font-weight: var(--font-Weights--500);
