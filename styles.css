@@ -26,9 +26,10 @@ main {
     display: grid;
     grid-template-columns: repeat(4,1fr);
     grid-template-rows: repeat(2,1fr); 
-    margin: 5rem;
+    margin: 5rem auto;
+    height: 100%;
     gap: 25px;   
-    background-color: red;
+    max-width: var(--desktop-view-size); 
     padding: 20px;
    
 }
@@ -138,7 +139,7 @@ h2 {
         gap: 25px; 
         padding: 10px; 
         margin: 4rem;  
-        background-color: blue;
+        
     }
 }
 
@@ -149,7 +150,7 @@ h2 {
         gap: 25px;   
         padding: 0px;  
         margin: 3rem;
-        background-color: yellow;
+       
     }
 }
 @media (max-width: 480px) {
@@ -159,7 +160,7 @@ h2 {
         gap: 25px;   
         padding: 0px;  
         margin: 2rem 1rem;
-        background-color: green;
+        
     }
 }
 
@@ -170,6 +171,6 @@ h2 {
         gap: 25px;   
         padding: 0px;  
         margin: 2rem 1rem;
-        background-color: rgb(128, 0, 105);
+        min-width: var(--mobile-view-size); 
     }
 }
